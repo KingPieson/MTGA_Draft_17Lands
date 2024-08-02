@@ -1,3 +1,6 @@
+===================== RELEASE NOTES 3.11 =====================
+* Fixed a bug where drafts were not being detected properly
+
 ===================== RELEASE NOTES 3.10 =====================
 * Application updates will no longer reset the settings
 * The visibility of the Current Draft display, Deck Source options, Deck filter options, and Refresh button can now be toggled in the settings menu
