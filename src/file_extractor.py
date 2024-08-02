@@ -870,6 +870,8 @@ class FileExtractor:
                                 card_data[constants.DATA_SECTION_IMAGES].append(
                                     image_url)
                     elif value in card:
+                        if not card[value]:
+                            continue
                         if (key in constants.WIN_RATE_OPTIONS) or (key == constants.DATA_FIELD_IWD):
                             color_data[colors][key] = round(
                                 float(card[value]) * 100.0, 2) if card[value] else 0.0
